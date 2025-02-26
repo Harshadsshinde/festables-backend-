@@ -32,7 +32,7 @@ app.use(
     origin: [
       process.env.FRONTEND_URL_ONE,
       process.env.FRONTEND_URL_TWO,
-      "http://localhost:5173",
+      
     ],
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
