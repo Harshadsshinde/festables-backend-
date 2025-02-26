@@ -5,7 +5,7 @@ import cors from "cors"; // For handling Cross-Origin Resource Sharing
 import cookieParser from "cookie-parser"; // For parsing cookies from incoming requests
 import mongoose from "mongoose"; // Mongoose for MongoDB object modeling
 import fileUpload from "express-fileupload"; // For handling file uploads
-import bcrypt from "bcrypt"; // For hashing passwords
+import bcrypt from "bcryptjs"; // For hashing passwords
 import jwt from "jsonwebtoken"; // For creating and verifying JSON Web Tokens
 import Stripe from "stripe"; // For integrating Stripe payments
 
