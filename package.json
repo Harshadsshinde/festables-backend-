@@ -2,6 +2,9 @@
    "name": "festables-backend",
    "version": "1.0.0",
    "type": "module",
+   "scripts": {
+      "start": "node server.js"
+   },
    "dependencies": {
       "@stripe/react-stripe-js": "^3.1.1",
       "@stripe/stripe-js": "^5.7.0",
