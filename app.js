@@ -30,9 +30,7 @@ mongoose
 app.use(
   cors({
     origin: [
-      process.env.FRONTEND_URL_ONE,
-      process.env.FRONTEND_URL_TWO,
-      
+      process.env.FRONTEND_URL_ONE,      
     ],
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
